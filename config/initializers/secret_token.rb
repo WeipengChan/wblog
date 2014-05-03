@@ -1,1 +1,1 @@
-WBlog::Application.config.secret_key_base = ENV['SECRET_TOKEN']
+WBlog::Application.config.secret_key_base = '437341c2c5c6923315131d465c9f0798ef9dc5bee46dd1b19d483f2f4c0606eed8d3d50f2f83d33ddeb46830f549f068a9b723e6c8de141920823d48544535bd'

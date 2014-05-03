@@ -15,7 +15,7 @@ class Admin::SessionsController < ApplicationController
       flash[:notice] = '登录成功'
       session[:login] = true
       render :json=> { success: true }
-    end
+     end
   end
 
   def destroy
